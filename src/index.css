@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-div {
+  background-color: lightcoral;
+  text-align: center;
+  height: 4em;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.container {
+  margin: 1em;
+}
+.content-div {
+  height: 10em;
+  display: flex;
+  margin-top: 1.5em;
+  max-width: 35em;
+}
+.content-div > img {
+  height: 100%;
+  width: 7em;
+  border-radius: 5px;
+}
+.about-div {
+  margin: 0.6em;
+}
+.location {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+.googlemap {
+  font-size: 0.6rem;
+  margin-left: 1em;
+  color: grey;
+}
+.placename {
+  margin: 0;
+  margin-top: 0.3em;
+}
+.date {
+  font-size: 0.53rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.about-place {
+  font-size: 0.7rem;
+  color: gray;
+}
+@media (min-width: 500px) {
+  .content-div {
+    margin: 2em auto;
+    height: 15em;
+    gap: 1.5em;
+    align-items: center;
+  }
+  .content-div > img {
+    height: 80%;
+    width: 9em;
+    border-radius: 5px;
+  }
+  .about-place {
+    font-size: 1rem;
+    color: gray;
+  }
+  .date {
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+}
